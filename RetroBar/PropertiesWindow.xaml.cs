@@ -179,6 +179,7 @@ namespace RetroBar
         {
             if (!EnvironmentHelper.IsWindows10OrBetter)
             {
+                cbAllowBlurBehind.Visibility = Visibility.Collapsed;
                 cbShowStartButtonMultiMon.Visibility = Visibility.Collapsed;
             }
         }
