@@ -2,6 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:s="clr-namespace:System;assembly=mscorlib">
 
+    <!-- Authors: https://github.com/bzzrak, Radoš Milićev (https://github.com/rammba) -->
     <s:String x:Key="retrobar_properties">Поставке RetroBar-а</s:String>
     <s:String x:Key="taskbar_tab">Трака задатака</s:String>
     <s:String x:Key="advanced_tab">Напредно</s:String>
