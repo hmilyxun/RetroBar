@@ -49,6 +49,7 @@
         <s:String>与窗口的任务栏相同</s:String>
         <s:String>与窗口和主任务栏相同的任务栏</s:String>
     </x:Array>
+    <s:String x:Key="invert_grayscale_colors">反转灰度颜色(_I):</s:String>
     <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>当主题需要时</s:String>
         <s:String>始终</s:String>
@@ -66,6 +67,11 @@
         <s:String>打开 Aero 样式日历</s:String>
         <s:String>打开现代样式日历</s:String>
         <s:String>打开通知中心</s:String>
+    </x:Array>
+    <s:String x:Key="task_wheel_action">鼠标滚轮动作(_M):</s:String>
+    <x:Array x:Key="task_wheel_action_values" Type="s:String">
+        <s:String>什么也不做</s:String>
+        <s:String>显示/隐藏窗口</s:String>
     </x:Array>
     <s:String x:Key="auto_hide_transparent">若此选项不被选中，则自动隐藏时保留一根细线(_T)</s:String>
     <s:String x:Key="version">版本 {0}</s:String>
@@ -92,6 +98,13 @@
     <s:String x:Key="allow_blur_behind">允许在透明任务栏后方添加模糊效果(_B)</s:String>
     <s:String x:Key="ok_dialog">确定</s:String>
 
+    <s:String x:Key="clock_format_help">查看可用的格式选项</s:String>
+    <s:String x:Key="clock_format_warning">注意: 如果您选择的主题指定了自己的格式，自定义时钟格式可能不会按预期工作。</s:String>
+    <s:String x:Key="override_clock_format">自定义时钟格式(_F):</s:String>
+    <s:String x:Key="override_ampm_designators">自定义设计符(_E):</s:String>
+    <s:String x:Key="am_designator">上午:</s:String>
+    <s:String x:Key="pm_designator">下午:</s:String>
+    
     <s:String x:Key="customize_notifications">自定义通知</s:String>
     <s:String x:Key="customize_notifications_info">RetroBar 显示活动和紧急通知的图标，并隐藏非活动通知。 您可以为下面列表中的项目更改此行为。</s:String>
     <s:String x:Key="customize_notifications_instruction">选择一个项目，然后选择其通知行为: </s:String>
@@ -127,6 +140,7 @@
     <s:String x:Key="tray_properties">属性(_R)</s:String>
     <s:String x:Key="update_available">更新可用(_U)...</s:String>
     <s:String x:Key="exit_retrobar">退出 RetroBar(_E)</s:String>
+    <s:String x:Key="restart_retrobar">重新启动 RetroBar(_A)</s:String>
     <s:String x:Key="customize_notifications_menu">自定义通知(_C)...</s:String>
     <s:String x:Key="lock_taskbar_menu">锁定任务栏(_L)</s:String>
 
@@ -142,6 +156,7 @@
     <s:String x:Key="minimize">最小化(_N)</s:String>
     <s:String x:Key="maximize">最大化(_X)</s:String>
     <s:String x:Key="close">关闭(_C)</s:String>
+    <s:String x:Key="end_task">结束任务(_E)</s:String>
 
     <s:String x:Key="show_hidden">显示隐藏的图标</s:String>
     <s:String x:Key="hide">隐藏</s:String>
